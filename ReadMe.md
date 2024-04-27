@@ -1,0 +1,1 @@
+This is my personal website, I plan to use it to showcase my skills and projects I have worked on as well as my personality and sense of humor
