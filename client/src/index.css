@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #282c34;
+  --header: #fff;
+  --link: #61dafb;
+  --text: hsla(0, 0%, 100%, 0.88);
+}
+
+.nav_menu {
+  overflow: hidden;
+  background-color: rgb(97, 97, 108);
+  height: 80px;
+  display:flex;
+  justify-content:center;
+}
+.nav_menu a {
+  float: none;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 15px 40px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.nav_menu a:hover {
+  background-color: white;
+  color: green;
+}
+
+.neumorph_green{
+  border-radius: 20px;
+  background: #9bc59b;
+  box-shadow:  10px 10px 14px #84a784,
+              -10px -10px 14px #b2e3b2;
+}
+
+.neumorph_white{
+  border-radius: 53px;
+  background: #ffffff;
+  box-shadow:  22px 22px 44px #d9d9d9,
+              -22px -22px 44px #ffffff;
+}
+
+.neumorph_stone{
+  border-radius: 6px;
+  background: #f7f6f5;
+  box-shadow: inset 7px 7px 14px #b6b3b2,
+              inset -7px -7px 14px #f6f3f0;
+}
+
+.background{
+  background-color: bisque;
+  background-size: cover;
+}
